@@ -4,9 +4,7 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = [
-    "netcdf4>=1.7.1.post2",
-]
+dependencies = ["netcdf4>=1.7.1.post2"]
 
 [tool.uv.workspace]
-members = ["calibration", "recurrence"]
+members = ["package_one", "package_one"]
