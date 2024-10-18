@@ -5,9 +5,10 @@
 
 ## How I made this
 
-1. Create `uv_test_project` folder
-2. Run `uv init` inside it.
-3. Create `package_one` and `package_two` folders
-4. Run `uv init` inside them.
+1. Create `uv_test_project` folder; run `uv init` inside it.
+2. Create `package_one` and `package_two` folders; un `uv init` inside them.
 
+Each step modifies the `pyproject.toml` at the root level (`uv_test_project`).
 
+### Adding dependencies
+If `package_one` depends on `numpy`, then go into `package_one` and run `uv add numpy`
